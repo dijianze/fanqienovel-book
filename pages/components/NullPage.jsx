@@ -25,28 +25,8 @@ const NullPage = () => {
                     </svg>
                     <div className={styles.info}>
                         <h1>番茄阅读器</h1>
-                        <p>一个更简单干净的番茄小说阅读器，没有广告，Web端与移动端都可以使用。</p>
-                        <svg className={styles.by}>
-                            <use href="#by"></use>
-                        </svg>
+                        <p>一个更简单干净的番茄小说阅读器，无广告，适配Web端与移动端。</p>
                     </div>
-                </div>
-                <div className={styles.right}>
-                    <svg className={`${styles.technology} ${styles.next}`}>
-                        <use href="#next"></use>
-                    </svg>
-                    <a href="https://vercel.com/kailous/fanqienovel-book" target="_blank"
-                       rel="noreferrer noopener">
-                        <svg className={`${styles.technology} ${styles.vercel}`}>
-                            <use href="#vercel"></use>
-                        </svg>
-                    </a>
-                    <a href="https://github.com/kailous/fanqienovel-book" target="_blank"
-                       rel="noreferrer noopener">
-                        <svg className={`${styles.technology} ${styles.github}`}>
-                            <use href="#Github"></use>
-                        </svg>
-                    </a>
                 </div>
             </header>
             <main>
